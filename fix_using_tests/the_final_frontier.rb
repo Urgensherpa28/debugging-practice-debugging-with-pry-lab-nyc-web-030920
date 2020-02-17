@@ -12,8 +12,9 @@ def crew
 end
 
 def greet_crew(crew)
-  puts "Hello #{crew}."
+  greeting = puts "Hello #{crew}."
   # binding.pry 
+  return greeting
 end
 
 def engage
