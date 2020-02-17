@@ -14,7 +14,8 @@ end
 def greet_crew(crew)
   array = []
   crew.each do |names|
-  array << ("Hello #{names}.")
+  greeting = "Hello #{names}."
+  array << greeting
   end
   # binding.pry
 end
