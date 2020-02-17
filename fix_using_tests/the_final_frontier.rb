@@ -8,11 +8,11 @@ def state_log(star_date)
 end
 
 def crew
-  names = ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
+  ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
 end
 
 def greet_crew(crew)
-  greeting = puts "Hello #{crew}."
+  new_greetings = puts "Hello #{crew}."
   # binding.pry 
   return greeting
 end
