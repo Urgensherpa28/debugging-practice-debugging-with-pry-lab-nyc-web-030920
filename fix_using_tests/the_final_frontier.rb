@@ -16,7 +16,7 @@ def greet_crew(crew)
   crew.each do |names|
   array << "Hello #{names}."
   end
-  binding.pry
+  # binding.pry
 end
 
 def engage
