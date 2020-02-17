@@ -17,7 +17,7 @@ def greet_crew(crew)
   greeting = "Hello #{names}."
   array << greeting
   end
-  # binding.pry
+  array
 end
 
 def engage
