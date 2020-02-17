@@ -13,7 +13,7 @@ end
 
 def greet_crew(crew)
   puts "Hello #{crew_member}."
-  binding.pry
+  # binding.pry
 end
 
 def engage
