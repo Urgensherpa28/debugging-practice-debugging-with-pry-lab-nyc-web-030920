@@ -12,7 +12,9 @@ def crew
 end
 
 def greet_crew(crew)
+  crew.each do |names|
   "Hello #{names}."
+  end
   binding.pry
 end
 
