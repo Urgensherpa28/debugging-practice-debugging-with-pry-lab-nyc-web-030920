@@ -12,7 +12,7 @@ def crew
 end
 
 def greet_crew(crew)
-  return "Hello #{crew}."
+  "Hello #{crew}."
   # binding.pry
 end
 
